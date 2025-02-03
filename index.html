@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel advatiser</title>
+    <style>
+
+        body{
+            padding: 0;
+            margin: 0;
+            background-color: gray;
+        }
+
+        .main {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+        }
+
+        .box {
+            width: 250px;
+            height: 400px;
+            background-color: white;
+            border-radius: 5px;
+            overflow: hidden;
+            position: relative;
+        }
+        a{
+            border-radius: 5px;
+            border: 2px solid rgb(156, 156, 40);
+            width: 100%;
+            font-size: 12px;
+            text-decoration: none;
+            color: black;
+            padding-left: 5px;
+            padding-right: 5px;
+            box-shadow: 0 0 2px rgba(0, 0, 0, 4);
+
+        }
+        h5{padding-top:  10px;
+            padding-left: 20px;
+            border-top:1px solid rgb(126, 124, 124);
+        }
+        .index{
+            box-sizing: border-box;
+            position: absolute;
+            bottom: -100%;
+            left: 0;
+            width: 250px;
+            height: 400px;
+            background-size: cover;
+            transition: 0.6s;
+        }
+        #ok:hover .index{
+            
+            bottom: 0;
+            /* background-image: url(beg.jpg); */
+            /* filter: blur(5px);  */
+
+         }
+         .box:hover #ing1 {
+            top: 40px;
+         }
+        
+
+          .box:hover .ing {
+            transform: scale(4);
+            /* transition: 0.5s; */
+            transition:transform 0.6s ease-in-out;
+        } 
+        .box:hover #btndiv {
+            display: flex;
+        } 
+        .buttom {
+            height: 10px;
+            width: 60px;
+            font-size: 20px;
+            padding-left: 15px;
+            padding-right: 15px;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 4px;
+            text-decoration: none;
+            color: black;
+            /* box-shadow: ; */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 4);
+        }
+        .buttom:hover{
+            color: white;
+            background-color: black;
+            /* transform:scale(4); */
+            
+        }
+         
+    </style>
+</head>
+
+<body>
+    <div class="hader" style="display: flex; justify-content: center; align-items: center;">
+        <div>
+            <h1>Featured Travel Pros</h1>
+            <p>popular exclusive listings in our directory</p>
+        </div>
+    </div>
+
+    <div class="main">
+        
+    <div class="box">
+        <div class="ing">
+            <img src="beg.jpg" alt="" width="250px" height="150px" style="border-radius: 5px; position: relative;">
+        </div>
+        <div id="ing">
+            <img src="image.png" alt="" height="90px" width="90px"
+                style="border-radius: 80px; position: absolute; top: 80px; left: 80px;box-shadow: 0 0 10px rgba(0, 0, 0, 4);">
+        </div>
+    
+    <div id="ok">
+        <p style="background-color:none; padding-top: 20px; font-size: 20px;margin: 0px; padding-left: 55px;"> <b style="background-color:none;">Mr. Sundar Pichai</b>
+        <p style="background-color:none;  padding-left: 100px;height: 20px; margin: 0px;"> India</p>
+        <p style="text-align: center; font-size: 15px;  ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae laboriosam nesciunt amet nihil voluptat.</p>
+        </p>
+        <div class="button"
+                style=" display: flex; align-items: center; justify-content:center; gap: 15px;padding-bottom: 8px; text-decoration:none; padding-top: 20px; color: black; padding-left: 6px; width: fit-content; background-color: white; ">
+
+                <div><a class="button1" href=" " type="none" target="_blank">Dedicated</a></div>
+                <div><a class="button2" href=" " type="none" target="_blank" >Steven Goulde</a></div>
+                <div><a class="button3" href=" " type="none" target="_blank">Attentive</a></div>
+
+            </div>
+            <div>
+                <h5>4.5⭐</h5>
+            </div>
+            <div class="index">
+            
+                <div style="padding-left: 80px; padding-top: 80px;" >
+                    <!-- <img src="image.png" alt="" height="90px" width="90px"
+                        style="border-radius: 80px; box-shadow: 0 0 10px rgba(0, 0, 0, 4);"> -->
+                </div>
+                <div
+                    style=" display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 20px; width: fit-content; padding-left: 80px; padding-top: 110px ">
+
+                    <div><a class="buttom" href=" " type="none" target="_blank">Email</a></div>
+                    <div><a class="buttom" href=" " type="none" target="_blank">Call</a></div>
+                    <div><a class="buttom" href=" " type="none" target="_blank">Inquire</a></div>
+
+                </div>
+                 
+        </div> 
+    </div>
+</div>
+<div class="box">
+    <div class="ing">
+        <img src="beg.jpg" alt="" width="250px" height="150px" style="border-radius: 5px; position: relative;">
+    </div>
+    <div id="ing">
+        <img src="image.png" alt="" height="90px" width="90px"
+            style="border-radius: 80px; position: absolute; top: 80px; left: 80px;box-shadow: 0 0 10px rgba(0, 0, 0, 4);">
+    </div>
+
+<div id="ok">
+    <p style="background-color:none; padding-top: 20px; font-size: 20px;margin: 0px; padding-left: 55px;"> <b style="background-color:none;">Mr. Sundar Pichai</b>
+    <p style="background-color:none;  padding-left: 100px;height: 20px; margin: 0px;"> India</p>
+    <p style="text-align: center; font-size: 15px;  ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae laboriosam nesciunt amet nihil voluptat.</p>
+    </p>
+    <div class="button"
+            style=" display: flex; align-items: center; justify-content:center; gap: 15px;padding-bottom: 8px; text-decoration:none; padding-top: 20px; color: black; padding-left: 6px; width: fit-content; background-color: white; ">
+
+            <div><a class="button1" href=" " type="none" target="_blank">Dedicated</a></div>
+            <div><a class="button2" href=" " type="none" target="_blank" >Steven Goulde</a></div>
+            <div><a class="button3" href=" " type="none" target="_blank">Attentive</a></div>
+
+        </div>
+        <div>
+            <h5>4.5⭐</h5>
+        </div>
+        <div class="index">
+        
+            <div style="padding-left: 80px; padding-top: 80px;" >
+                <!-- <img src="image.png" alt="" height="90px" width="90px"
+                    style="border-radius: 80px; box-shadow: 0 0 10px rgba(0, 0, 0, 4);"> -->
+            </div>
+            <div
+                style=" display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 20px; width: fit-content; padding-left: 80px; padding-top: 110px ">
+
+                <div><a class="buttom" href=" " type="none" target="_blank">Email</a></div>
+                <div><a class="buttom" href=" " type="none" target="_blank">Call</a></div>
+                <div><a class="buttom" href=" " type="none" target="_blank">Inquire</a></div>
+
+            </div>
+             
+    </div> 
+</div>
+</div>
+
+<div class="box">
+    <div class="ing">
+        <img src="beg.jpg" alt="" width="250px" height="150px" style="border-radius: 5px; position: relative;">
+    </div>
+    <div id="ing">
+        <img src="image.png" alt="" height="90px" width="90px"
+            style="border-radius: 80px; position: absolute; top: 80px; left: 80px;box-shadow: 0 0 10px rgba(0, 0, 0, 4);">
+    </div>
+
+<div id="ok">
+    <p style="background-color:none; padding-top: 20px; font-size: 20px;margin: 0px; padding-left: 55px;"> <b style="background-color:none;">Mr. Sundar Pichai</b>
+    <p style="background-color:none;  padding-left: 100px;height: 20px; margin: 0px;"> India</p>
+    <p style="text-align: center; font-size: 15px;  ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae laboriosam nesciunt amet nihil voluptat.</p>
+    </p>
+    <div class="button"
+            style=" display: flex; align-items: center; justify-content:center; gap: 15px;padding-bottom: 8px; text-decoration:none; padding-top: 20px; color: black; padding-left: 6px; width: fit-content; background-color: white; ">
+
+            <div><a class="button1" href=" " type="none" target="_blank">Dedicated</a></div>
+            <div><a class="button2" href=" " type="none" target="_blank" >Steven Goulde</a></div>
+            <div><a class="button3" href=" " type="none" target="_blank">Attentive</a></div>
+
+        </div>
+        <div>
+            <h5>4.5⭐</h5>
+        </div>
+        <div class="index">
+            
+            <div style="padding-left: 80px; padding-top: 80px;" >
+                <!-- <img src="image.png" alt="" height="90px" width="90px" -->
+                    <!-- style="border-radius: 80px; box-shadow: 0 0 10px rgba(0, 0, 0, 4);"> -->
+            </div>
+            <div
+                style=" display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 20px; width: fit-content; padding-left: 80px; padding-top: 110px ">
+
+                <div><a class="buttom" href=" " type="none" target="_blank">Email</a></div>
+                <div><a class="buttom" href=" " type="none" target="_blank">Call</a></div>
+                <div><a class="buttom" href=" " type="none" target="_blank">Inquire</a></div>
+
+            </div>
+             
+    </div> 
+</div>
+</div>
+
+<div class="box">
+    <div class="ing">
+        <img src="beg.jpg" alt="" width="250px" height="150px" style="border-radius: 5px; position: relative;">
+    </div>
+    <div id="ing">
+        <img src="image.png" alt="" height="90px" width="90px"
+            style="border-radius: 80px; position: absolute; top: 80px; left: 80px;box-shadow: 0 0 10px rgba(0, 0, 0, 4);">
+    </div>
+
+<div id="ok">
+    <p style="background-color:none; padding-top: 20px; font-size: 20px;margin: 0px; padding-left: 55px;"> <b style="background-color:none;">Mr. Sundar Pichai</b>
+    <p style="background-color:none;  padding-left: 100px;height: 20px; margin: 0px;"> India</p>
+    <p style="text-align: center; font-size: 15px;  ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae laboriosam nesciunt amet nihil voluptat.</p>
+    </p>
+    <div class="button"
+            style=" display: flex; align-items: center; justify-content:center; gap: 15px;padding-bottom: 8px; text-decoration:none; padding-top: 20px; color: black; padding-left: 6px; width: fit-content; background-color: white; ">
+
+            <div><a class="button1" href=" " type="none" target="_blank">Dedicated</a></div>
+            <div><a class="button2" href=" " type="none" target="_blank" >Steven Goulde</a></div>
+            <div><a class="button3" href=" " type="none" target="_blank">Attentive</a></div>
+
+        </div>
+        <div>
+            <h5>4.5⭐</h5>
+        </div>
+        <div class="index">
+            
+                <div style="padding-left: 80px; padding-top: 80px;" >
+                    <!-- <img src="image.png" alt="" height="90px" width="90px"
+                        style="border-radius: 80px; box-shadow: 0 0 10px rgba(0, 0, 0, 4);"> -->
+                </div>
+                <div
+                    style=" display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 20px; width: fit-content; padding-left: 80px; padding-top: 110px ">
+
+                    <div><a class="buttom" href=" " type="none" target="_blank">Email</a></div>
+                    <div><a class="buttom" href=" " type="none" target="_blank">Call</a></div>
+                    <div><a class="buttom" href=" " type="none" target="_blank">Inquire</a></div>
+
+                </div>
+                 
+        </div> 
+</div>
+</div>
+
+
+</div>
+</body>
+
+</html>
